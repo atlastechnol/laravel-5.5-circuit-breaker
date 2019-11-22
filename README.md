@@ -17,7 +17,7 @@ If you need an easy to use implementation of the [circuit breaker pattern](https
 You can use Composer to install the package for your project.
 
 ``` bash
-$ composer require soutorafaelbr/laravel-circuit-breaker
+$ composer require atlas/laravel-circuit-breaker
 ```
 
 Don't worry about service providers and façades: Laravel can auto discover the package without doing nothing!

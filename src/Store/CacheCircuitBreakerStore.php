@@ -1,6 +1,6 @@
 <?php
 
-namespace soutorafaelbr\LaravelCircuitBreaker\Store;
+namespace atlas\LaravelCircuitBreaker\Store;
 
 use Illuminate\Cache\Repository as Cache;
 

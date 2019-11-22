@@ -1,6 +1,6 @@
 <?php
 
-namespace soutorafaelbr\LaravelCircuitBreaker\Store;
+namespace atlas\LaravelCircuitBreaker\Store;
 
 interface CircuitBreakerStoreInterface
 {

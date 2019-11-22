@@ -1,13 +1,13 @@
 <?php
 
-namespace soutorafaelbr\LaravelCircuitBreaker\Manager;
+namespace atlas\LaravelCircuitBreaker\Manager;
 
-use soutorafaelbr\LaravelCircuitBreaker\Events\AttemptFailed;
-use soutorafaelbr\LaravelCircuitBreaker\Events\ServiceFailed;
-use soutorafaelbr\LaravelCircuitBreaker\Events\ServiceRestored;
-use soutorafaelbr\LaravelCircuitBreaker\Service\ServiceOptionsResolver;
+use atlas\LaravelCircuitBreaker\Events\AttemptFailed;
+use atlas\LaravelCircuitBreaker\Events\ServiceFailed;
+use atlas\LaravelCircuitBreaker\Events\ServiceRestored;
+use atlas\LaravelCircuitBreaker\Service\ServiceOptionsResolver;
 use Illuminate\Contracts\Events\Dispatcher as EventDispatcher;
-use soutorafaelbr\LaravelCircuitBreaker\Store\CircuitBreakerStoreInterface;
+use atlas\LaravelCircuitBreaker\Store\CircuitBreakerStoreInterface;
 use Illuminate\Config\Repository as Config;
 
 class CircuitBreakerManager

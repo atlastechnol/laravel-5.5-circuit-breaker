@@ -1,8 +1,8 @@
 <?php
 
-namespace soutorafaelbr\LaravelCircuitBreaker\Tests\Service;
+namespace atlas\LaravelCircuitBreaker\Tests\Service;
 
-use soutorafaelbr\LaravelCircuitBreaker\Service\ServiceOptionsResolver;
+use atlas\LaravelCircuitBreaker\Service\ServiceOptionsResolver;
 use Illuminate\Config\Repository as Config;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;

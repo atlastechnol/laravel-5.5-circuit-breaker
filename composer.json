@@ -1,5 +1,5 @@
 {
-    "name": "soutorafaelbr/laravel-5.5-circuit-breaker",
+    "name": "atlas/laravel-5.5-circuit-breaker",
     "type": "library",
     "description": "A circuit breaker pattern implementation for the Laravel framework 5.5 based on laravel circuit breaker package https://github.com/francescomalatesta/laravel-circuit-breaker",
     "keywords": [
@@ -7,13 +7,13 @@
         "circuit breaker",
         "package"
     ],
-    "homepage": "https://github.com/soutorafaelbr/laravel-5.5-circuit-breaker",
+    "homepage": "https://github.com/atlastechnol/laravel-5.5-circuit-breaker",
     "license": "MIT",
     "authors": [
         {
-            "name": "Rafael Souto",
-            "email": "souto.rafaelb@gmail.com",
-            "homepage": "https://github.com/soutorafaelbr",
+            "name": "Atlas Technologies",
+            "email": "atlastechnol@gmail.com",
+            "homepage": "https://github.com/atlastechnol",
             "role": "Developer"
         }
     ],
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "soutorafaelbr\\LaravelCircuitBreaker\\": "src"
+            "atlas\\LaravelCircuitBreaker\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "soutorafaelbr\\LaravelCircuitBreaker\\Tests\\": "tests"
+            "atlas\\LaravelCircuitBreaker\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "soutorafaelbr\\LaravelCircuitBreaker\\Provider\\CircuitBreakerServiceProvider"
+                "atlas\\LaravelCircuitBreaker\\Provider\\CircuitBreakerServiceProvider"
             ],
             "aliases": {
-                "CircuitBreaker": "soutorafaelbr\\LaravelCircuitBreaker\\Facade\\CircuitBreaker"
+                "CircuitBreaker": "atlas\\LaravelCircuitBreaker\\Facade\\CircuitBreaker"
             }
         }
     },

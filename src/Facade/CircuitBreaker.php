@@ -1,8 +1,8 @@
 <?php
 
-namespace soutorafaelbr\LaravelCircuitBreaker\Facade;
+namespace atlas\LaravelCircuitBreaker\Facade;
 
-use soutorafaelbr\LaravelCircuitBreaker\Manager\CircuitBreakerManager;
+use atlas\LaravelCircuitBreaker\Manager\CircuitBreakerManager;
 use Illuminate\Support\Facades\Facade;
 
 class CircuitBreaker extends Facade

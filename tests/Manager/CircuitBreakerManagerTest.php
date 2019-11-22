@@ -1,17 +1,17 @@
 <?php
 
-namespace soutorafaelbr\LaravelCircuitBreaker\Tests\Manager;
+namespace atlas\LaravelCircuitBreaker\Tests\Manager;
 
-use soutorafaelbr\LaravelCircuitBreaker\Service\ServiceOptions;
-use soutorafaelbr\LaravelCircuitBreaker\Service\ServiceOptionsResolver;
-use soutorafaelbr\LaravelCircuitBreaker\Events\AttemptFailed;
-use soutorafaelbr\LaravelCircuitBreaker\Events\ServiceFailed;
-use soutorafaelbr\LaravelCircuitBreaker\Events\ServiceRestored;
-use soutorafaelbr\LaravelCircuitBreaker\Manager\CircuitBreakerManager;
+use atlas\LaravelCircuitBreaker\Service\ServiceOptions;
+use atlas\LaravelCircuitBreaker\Service\ServiceOptionsResolver;
+use atlas\LaravelCircuitBreaker\Events\AttemptFailed;
+use atlas\LaravelCircuitBreaker\Events\ServiceFailed;
+use atlas\LaravelCircuitBreaker\Events\ServiceRestored;
+use atlas\LaravelCircuitBreaker\Manager\CircuitBreakerManager;
 use Illuminate\Contracts\Events\Dispatcher;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use soutorafaelbr\LaravelCircuitBreaker\Store\CircuitBreakerStoreInterface;
+use atlas\LaravelCircuitBreaker\Store\CircuitBreakerStoreInterface;
 
 class CircuitBreakerManagerTest extends TestCase
 {

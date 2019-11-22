@@ -1,9 +1,9 @@
 <?php
 
-namespace soutorafaelbr\LaravelCircuitBreaker\Provider;
+namespace atlas\LaravelCircuitBreaker\Provider;
 
-use soutorafaelbr\LaravelCircuitBreaker\Store\CacheCircuitBreakerStore;
-use soutorafaelbr\LaravelCircuitBreaker\Store\CircuitBreakerStoreInterface;
+use atlas\LaravelCircuitBreaker\Store\CacheCircuitBreakerStore;
+use atlas\LaravelCircuitBreaker\Store\CircuitBreakerStoreInterface;
 use Illuminate\Support\ServiceProvider;
 
 class CircuitBreakerServiceProvider extends ServiceProvider
