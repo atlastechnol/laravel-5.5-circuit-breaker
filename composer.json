@@ -1,5 +1,5 @@
 {
-    "name": "atlas/laravel-5.5-circuit-breaker",
+    "name": "atlastechnol/laravel-5.5-circuit-breaker",
     "type": "library",
     "description": "A circuit breaker pattern implementation for the Laravel framework 5.5 based on laravel circuit breaker package https://github.com/francescomalatesta/laravel-circuit-breaker",
     "keywords": [
